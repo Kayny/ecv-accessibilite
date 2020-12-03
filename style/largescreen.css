@@ -2,7 +2,7 @@ h1 {
     font-size: 4rem;
 }
 
-#img-article {
+.img-article {
     background: url("../img/top.jpg") no-repeat center center / cover;
     width: 740px;
     height: 419px;
