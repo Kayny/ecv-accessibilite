@@ -3,7 +3,7 @@ h1 {
 }
 
 .img-article {
-    background: url(img/top.jpg) no-repeat center center/cover;
+    background: url("img/top.jpg") no-repeat center center/cover;
     width: 740px;
     height: 419px;
     margin: 0 auto
