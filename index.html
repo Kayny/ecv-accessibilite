@@ -51,8 +51,8 @@
     <meta itemprop="image" content="img/top.jpg">
     <!-- Meta Resume Init -->
 
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 780px)" href="style/largescreen.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 779px)" href="style/smallscreen.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 780px)" href="style/minified.largescreen.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 779px)" href="style/minified.smallscreen.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
@@ -75,7 +75,7 @@
             <header>
 
                 <!-- Top Article -->
-                <a href="https://medium.com/swlh/finding-your-oogway-ce52ddab6b9d " title="Article title " target="_blank ">
+                <a href="https://medium.com/swlh/finding-your-oogway-ce52ddab6b9d" title="Article title" target="_blank">
                     <h1 itemprop="name headline">Finding your Oogway</h1>
                 </a>
                 <figure class="ux-caption" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
@@ -98,7 +98,7 @@
                 </span>
                 <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                     <span itemprop="name">
-                        <p class="author">Written by <a class="author-name" href="http://localhost/ecvaccess/ecv-accessibilite/" itemprop="url" rel="author" title="Tarun Kohli">Tarun Kohli</a></p>
+                        <h2 class="author">Written by <a class="author-name" href="http://localhost/ecvaccess/ecv-accessibilite/" itemprop="url" rel="author" title="Tarun Kohli">Tarun Kohli</a></h2>
                     </span>
                 </span>
 
@@ -213,7 +213,7 @@
 
                         <div class="comment">
                             <div class="author-commentimg">
-                                <img itemprop="image" src="img/author1.jpg" title="Jane Doe" alt="Jane Doe" />
+                                <img itemprop="image" src="img/author1.png" title="Jane Doe" alt="Jane Doe" />
                             </div>
                             <div class="comment-description">
                                 <p class="comments-author">Shalvika Sood</p>
@@ -226,7 +226,7 @@
 
                         <div class="comment">
                             <div class="author-commentimg">
-                                <img itemprop="image" src="img/author2.jpg" title="Jonathan Hetcher" alt="Jonathan Hetcher" />
+                                <img itemprop="image" src="img/author2.png" title="Jonathan Hetcher" alt="Jonathan Hetcher" />
                             </div>
                             <div class="comment-description">
                                 <p class="comments-author">Jonathan Hetcher</p>
@@ -240,7 +240,7 @@
 
                         <div class="comment">
                             <div class="author-commentimg">
-                                <img itemprop="image" src="img/author3.jpg" title="Matthew Lenneman" alt="Matthew Lenneman" />
+                                <img itemprop="image" src="img/author3.png" title="Matthew Lenneman" alt="Matthew Lenneman" />
                             </div>
                             <div class="comment-description">
                                 <p class="comments-author">Matthew Lenneman</p>
@@ -249,9 +249,7 @@
                                     nibh, ut
                                 </p>
                             </div>
-                            <div aria-hidden="false" class="comment-separator">
-                                <!--rendre la balise invisible pour les non-voyant-->
-                            </div>
+                            <div aria-hidden="false" class="comment-separator"></div>
                         </div>
 
                     </div>
@@ -267,9 +265,11 @@
             <!-- Article Content -->
 
 
-            <footer>
+            <!-- Footer -->
+            <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
                 <p>© Medium - 2020 -</p>
             </footer>
+            <!-- Footer -->
 
 
         </article>
